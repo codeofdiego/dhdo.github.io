@@ -1,0 +1,25 @@
+.main-container {
+	width: 100%;
+	height: auto;
+	margin: 0;
+}
+
+img {
+	width: 100%;
+	height: auto;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.title{
+	font-family:'Forza Light';
+	font-weight:normal;
+	font-size:14px;
+	position: absolute;
+	color:white;
+	margin:15px;
+}
+
+.title .fa-cogs{
+
+	color:white !important;
+}
