@@ -1,7 +1,6 @@
 /* Layout */
 .demo-layout-transparent {
   background: url('images/tela01-l.png') center / cover;
-  /*height: 50%;*/
 }
 
 .demo-layout-transparent .mdl-layout__header,
@@ -10,6 +9,9 @@
   /* This background is dark, so we set text to white. Use 87% black instead if
      your background is light. */
   color: white;
+
+  font-family: 'Forza Light';
+  font-weight: normal;
 }
 
 
@@ -17,7 +19,7 @@
 /* Main */
 .demo-card-wide.mdl-card {
   width: 80%;
-  margin: 5% auto 5% auto;
+  margin: 0 auto 5% auto;
   max-width: 850px
 }
 .demo-card-wide > .mdl-card__title {
@@ -25,9 +27,18 @@
   height: 20%;
  }
 
+ .demo-card-wide > .mdl-card__title > .mdl-card__title-text {
+  color: #000;
+  height: 20%;
+  font-family: 'Forza Light';
+  font-weight: normal;
+ }
+
  .demo-card-wide > .mdl-card__supporting-text {
   color: #000;
   height: 80%;
+  font-family: 'Forza Light';
+  font-weight: normal;
  }
 .demo-card-wide > .mdl-card__menu {
   color: #000;
