@@ -17,6 +17,9 @@
 .demo-layout-transparent .mdl-layout__drawer > .mdl-button {
 	color: black;
 }
+.demo-layout-transparent .mdl-layout__drawer .mdl-list__item-icon {
+	margin-right: 20px;
+}
 
 
 /* Main */
