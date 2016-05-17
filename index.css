@@ -1,20 +1,24 @@
 /* Layout */
 .demo-layout-transparent {
-  background: url('images/tela01.jpg') center / cover;
+  background: url('images/tela01-l.png') center / cover;
   /*height: 50%;*/
 }
 
 .demo-layout-transparent .mdl-layout__header,
-.demo-layout-transparent .mdl-layout__drawer-button {
+.demo-layout-transparent .mdl-layout__drawer-button,
+.demo-layout-transparent .mdl-button {
   /* This background is dark, so we set text to white. Use 87% black instead if
      your background is light. */
   color: white;
 }
 
+
+
 /* Main */
 .demo-card-wide.mdl-card {
-  width: 60%;
-  margin: 0 auto;
+  width: 80%;
+  margin: 5% auto 5% auto;
+  max-width: 850px
 }
 .demo-card-wide > .mdl-card__title {
   color: #000;
@@ -27,4 +31,17 @@
  }
 .demo-card-wide > .mdl-card__menu {
   color: #000;
+}
+
+.main-logo-container {
+  width:50%;
+  max-width: 500px;
+  height: auto;
+  margin: 0 auto;
+
+}
+.main-logo {
+  width:100%;
+  height: auto;
+  margin: 0 auto;
 }
