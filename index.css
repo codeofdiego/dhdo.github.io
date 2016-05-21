@@ -1,6 +1,49 @@
 /* Layout */
 .demo-layout-transparent {
-  background: url('images/tela01-l.png') center / cover;
+  background: url('images/marca/imagem-01.png') center / cover;
+}
+
+.mdl-layout {
+  /* Fix for Scrollify to work insite material design content */
+  overflow-y: visible;
+  overflow-x: visible;
+}
+.mdl-layout__content {
+  height:678px;
+  width:100vw;
+  /* Fix for Scrollify to work insite material design content */
+  overflow-y: visible;
+  overflow-x: visible;
+
+}
+
+.mini-fab-menu-container{
+  position: fixed;
+  z-index: 99;
+  bottom: 18px;
+  right: 18px;
+}
+
+.mini-fab-menu-container .mdl-menu__container{
+  margin: 0 10px 10px 15px;
+}
+
+section {
+  display: block;
+  height:678px;
+  width:100%;
+}
+
+.mdl-grid {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+}
+
+.mdl-cell {
+  background-color: gray;
+  height: 100%;
+  width: 100%;
 }
 
 .demo-layout-transparent .mdl-layout__header,
@@ -21,6 +64,11 @@
 	margin-right: 20px;
 }
 
+/*Drawer*/
+.demo-layout-transparent .mdl-layout__drawer .mdl-layout-icon {
+	width: 80px;
+	margin: 5px auto;
+}
 
 /* Main */
 .demo-card-wide.mdl-card {
@@ -49,14 +97,16 @@
   color: #000;
 }
 
-.main-logo-container {
-  width: 90%;
-  max-width: 500px;
+
+.main-logo {
+  width: 100%;
   height: auto;
   margin: 0 auto;
 }
-.main-logo {
-  width:100%;
+
+.main-logo-container {
+  width: 90%;
+  max-width: 500px;
   height: auto;
   margin: 0 auto;
 }
