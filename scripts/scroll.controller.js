@@ -14,11 +14,29 @@ $(function() {
         afterRender:function() {}
     });
 
-	// $(".scroll,.scroll-btn").click(function(e) {
-	// 	e.preventDefault();
+	$(".scroll-btn-home").click(function(e) {
+        e.preventDefault();
 
-	// 	$.scrollify.next();
-	// });
+        $.scrollify.move('#home');
+    });
+    
+    $(".scroll-btn-projects").click(function(e) {
+        e.preventDefault();
+
+        $.scrollify.move('#projects');
+    });
+    
+    $(".scroll-btn-blog").click(function(e) {
+        e.preventDefault();
+
+        $.scrollify.move('#blog');
+    });
+    
+    $(".scroll-btn-contact").click(function(e) {
+		e.preventDefault();
+
+		$.scrollify.move('#contact');
+	});
 
 	
 });
