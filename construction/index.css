@@ -1,0 +1,104 @@
+/* Layout */
+.mdl-layout {
+  /* Fix for Scrollify to work insite material design content */
+  overflow-y: visible;
+  overflow-x: visible;
+}
+.mdl-layout__content {
+  height:678px;
+  width:100vw;
+  /* Fix for Scrollify to work insite material design content */
+  overflow-y: visible;
+  overflow-x: visible;
+}
+
+/* Menu */
+.mini-fab-menu-container{
+  position: fixed;
+  z-index: 99;
+  bottom: 25px;
+  right: 25px;
+  font-family: 'Forza Light';
+  font-weight: normal;
+
+}
+
+.mini-fab-menu-container .mdl-menu__container{
+  margin: 0 10px 10px 15px;
+}
+
+/* Sections */
+section {
+  height:100vh;
+  width:100%;
+}
+
+/* Content Grid */
+.mdl-grid {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+}
+
+.mdl-cell {
+  height: 100%;
+  width: 100%;
+}
+
+/* Cells */
+.home-cell {
+  background: url("images/marca/imagem-01.png") center / cover;
+}
+
+.home-cell .main-logo {
+  width: 100%;
+  height: auto;
+  margin: 10vh auto 0 auto;
+}
+
+.home-cell .main-logo-container {
+  width: 90%;
+  max-width: 500px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.home-cell .demo-card-wide.mdl-card {
+  width: 80%;
+  margin: 10vh auto 0 auto;
+  max-width: 850px
+}
+
+.projects-cell {
+  background: url("images/marca/imagem-08.png") 10% / cover;
+}
+
+.blog-cell {
+  background: url("images/marca/imagem-05.png") center / cover;
+}
+
+.contact-cell {
+  background: url("images/marca/imagem-06.png") center / cover;
+}
+
+/* Cards */
+.demo-card-wide > .mdl-card__title {
+  color: #000;
+ }
+
+ .demo-card-wide > .mdl-card__title > .mdl-card__title-text {
+  color: #000;
+  font-family: 'Forza Light';
+  font-weight: normal;
+ }
+
+ .demo-card-wide > .mdl-card__supporting-text {
+	color: #000;
+	font-family: 'Forza Light';
+	font-weight: normal;
+	text-align: justify;
+	text-justify: inter-word;
+ }
+.demo-card-wide > .mdl-card__menu {
+  color: #000;
+}

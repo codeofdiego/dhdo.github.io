@@ -1,0 +1,13 @@
+.projects .mdl-cell {
+	padding: 20px !important;
+	height: 50%;
+}
+.project-post {
+  width: 100%;
+  height: 100%;
+}
+.projects-cell .demo-card-square .project-post  .mdl-card__title {
+  color: #fff;
+  background:
+    url('../images/marca/imagem-03.png') bottom right 15% no-repeat #46B6AC;
+}
